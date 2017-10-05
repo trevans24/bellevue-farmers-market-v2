@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+// Stylesheet
+import './css/Global.css';
+
+// Import Components
+import Nav from './Components/Global/Nav';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Bellevue Farmers Market</h1>
+        <Nav />
       </div>
     );
   }
